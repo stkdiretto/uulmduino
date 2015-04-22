@@ -10,12 +10,21 @@ Das Handbuch ist [im Ordner "handbuch"](handbuch/) und liegt als Markdown vor. E
 
 `pandoc anleitung.md -o anleitung.pdf --latex-engine=xelatex --variable geometry="a5paper" --variable mainfont="Droid Sans"`
 
+## Dankeschöns
+
+ * Leiterplattentechnik der Uni Ulm für die gute Beratung und die Platinenfertigung
+ * Maria Aufheimer, Robien Baldrich, Dominic Meißner, David-1 Schmid für Bugfixing und Input
+ * Juliane Wessalowski für den Betatest
+ * Alle Beitragenden, deren Basismaterial unter Freier Lizenz wir verwenden durften!
+
 ## Changelog
  * 2015-04-22 Erste Version
  * 2015-04-22 Übersetzte Experimente aus dem SIK hinzugefügt
+ * 2015-04-22 KiCad-Quellen hinzugefuegt
 
 ## Bekannte Fehler
  * IR-Sender ist auf dem Board mit Pin 9 verbunden → Sollte Pin 10 sein
  * DC-In-Buchse hat Masse auf dem mittleren Pin, sollte eigentlich andersherum sein
  * Bohrlöcher für die Zugentlastung der Batteriekastenzuleitungen sind zu klein
  * Beschriftungen könnten besser sein
+ * KiCad-Files sind sehr unorganisiert
