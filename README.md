@@ -8,12 +8,11 @@ Eine Mischung aus Arduino (besser gesagt dem [Diavolino von Evil Mad Scientist L
 
 Das Handbuch ist [im Ordner "handbuch"](handbuch/) und liegt als Markdown vor. Es kann mit Pandoc nach PDF exportiert werden:
 
-```
-pandoc anleitung.md -o anleitung.pdf --latex-engine=xelatex --variable geometry="a5paper" --variable mainfont="Droid Sans" 
-```
+`pandoc anleitung.md -o anleitung.pdf --latex-engine=xelatex --variable geometry="a5paper" --variable mainfont="Droid Sans"`
 
 ## Changelog
  * 2015-04-22 Erste Version
+ * 2015-04-22 Übersetzte Experimente aus dem SIK hinzugefügt
 
 ## Bekannte Fehler
  * IR-Sender ist auf dem Board mit Pin 9 verbunden → Sollte Pin 10 sein
