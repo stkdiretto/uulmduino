@@ -7,7 +7,7 @@ Ein Free-Hardware+Software-Projekt für den Girls'Day 2015 an der Universität U
 Basierend auf dem Diavolino von Evil Mad Scientist  
 http://www.evilmadscientist.com/go/diavolino
 
-Bausatzversion 0.1
+Bausatzversion 2
 Handbuch v. 0.2, 2015-04-22
 
 # Was ist was?

@@ -21,10 +21,11 @@ Das Handbuch ist [im Ordner "handbuch"](handbuch/) und liegt als Markdown vor. E
  * 2015-04-22 Erste Version
  * 2015-04-22 Übersetzte Experimente aus dem SIK hinzugefügt
  * 2015-04-22 KiCad-Quellen hinzugefuegt
+ * 2015-08-26 Revision 2 mit umfangreicherererer KiCad-Quellenlage und einigen gefixten Fehlern. Noch nicht praxiserprobt!
 
 ## Bekannte Fehler
- * IR-Sender ist auf dem Board mit Pin 9 verbunden → Sollte Pin 10 sein
- * DC-In-Buchse hat Masse auf dem mittleren Pin, sollte eigentlich andersherum sein
- * Bohrlöcher für die Zugentlastung der Batteriekastenzuleitungen sind zu klein
- * Beschriftungen könnten besser sein
- * KiCad-Files sind sehr unorganisiert
+ * IR-Sender ist auf dem Board mit Pin 9 verbunden → Sollte Pin 10 sein (Fixed in rev2)
+ * DC-In-Buchse hat Masse auf dem mittleren Pin, sollte eigentlich andersherum sein (Fixed in rev2)
+ * Bohrlöcher für die Zugentlastung der Batteriekastenzuleitungen sind zu klein (Fixed in rev2)
+ * Beschriftungen könnten besser sein (Sort of fixed in rev2)
+ * KiCad-Files sind sehr unorganisiert (Sort of fixed in rev2)
