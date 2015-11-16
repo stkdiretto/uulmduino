@@ -22,8 +22,12 @@ Das Handbuch ist [im Ordner "handbuch"](handbuch/) und liegt als Markdown vor. E
  * 2015-04-22 Übersetzte Experimente aus dem SIK hinzugefügt
  * 2015-04-22 KiCad-Quellen hinzugefuegt
  * 2015-08-26 Revision 2 mit umfangreicherererer KiCad-Quellenlage und einigen gefixten Fehlern. Noch nicht praxiserprobt!
+ * 2015-11-16 Fehler in rev2 vermerkt und [BOM](bom.md) hinzugefügt, Fehler im Handbuch korrigiert
 
-## Bekannte Fehler
+## Bekannte Fehler (Revision 2)
+ * Bei allen Transistoren sind B und E vertauscht :(
+
+## Bekannte Fehler (Revision 1)
  * IR-Sender ist auf dem Board mit Pin 9 verbunden → Sollte Pin 10 sein (Fixed in rev2)
  * DC-In-Buchse hat Masse auf dem mittleren Pin, sollte eigentlich andersherum sein (Fixed in rev2)
  * Bohrlöcher für die Zugentlastung der Batteriekastenzuleitungen sind zu klein (Fixed in rev2)

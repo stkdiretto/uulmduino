@@ -26,7 +26,7 @@ Handbuch v. 0.2, 2015-04-22
  10. Header
  11. Microcontroller
  12. 22Ω-Widerstand, ¼ Watt
- 13. 420kΩ-Widerstand, ¼ Watt
+ 13. 470kΩ-Widerstand, ¼ Watt
  14. Transistoren PN2222A (2 Stück)
  15. Infrarot-LEDs LD271 (2 Stück)
  16. Batteriekasten 3×AAA (nicht abgebildet)
@@ -152,7 +152,7 @@ Die Widerstände R3 und R5, die zum Infrarotsender gehören, hattest Du ja schon
 
 Auch diesen Widerstand findest Du über seine Farbmarkierung. Er hat Rot-Rot-Schwarze Ringchen (und wieder ein goldenes am Ende). Er kommt an die Stelle **R6**
 
-### Widerstand 420kΩ
+### Widerstand 470kΩ
 
 Und das ist der letzte der Widerstände. Er ist Gelb-Lila-Gelb markiert und kommt an die Position **R4**.
 
