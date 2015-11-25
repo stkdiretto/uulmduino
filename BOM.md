@@ -17,9 +17,14 @@
 | Keramikkondensator 100N RM 2,5mm | 3                     | X7R-2,5 100N           | 0,05           | 0,15        |
 | Header, 8 Pins                   | 3                     | MPE 094-1-008          | 0,23           | 0,69        |
 | Widerstand 1kΩ                   | 3                     | 1/4W 1,0K              | 0,103          | 0,309       |
+| Jumper, RM 2,5mm                 | 2                     | JUMPER 2,54 RT         | 0,05           | 0,10        |
 
 Zusätzlich pro 6 Platinen:
  * SL 1X40W 2,54 (0,32 EUR)
 
-Gesamt 7,07 EUR plus 1/6 0,32 EUR ;)
+Zusätzlich pro 25 Platinen:
+ * MPE 087-1-050 (0,87 EUR)
 
+Gesamt 7,17 EUR plus 1/6 0,32 EUR plus 1/25 0,87 EUR ;)
+
+**Batterien nicht vergessen! (3 AAA)**

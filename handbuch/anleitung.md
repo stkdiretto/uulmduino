@@ -8,7 +8,7 @@ Basierend auf dem Diavolino von Evil Mad Scientist
 http://www.evilmadscientist.com/go/diavolino
 
 Bausatzversion 2
-Handbuch v. 0.2, 2015-04-22
+Handbuch v. 0.21, 2015-11-25
 
 # Was ist was?
 
@@ -76,7 +76,7 @@ Alle Widerstände sind mit Farbringchen codiert. Die 1kΩ-Widerstände, die wir 
 
 ![Zuerst biegst Du die Anschlussdrähte zurecht. Entweder mit einer Biegelehre, oder frei Hand.](img_uulm/widerstand_biegen.jpg)
 
-Stecke den Widerstand an die mit **R2**, **R3** und **R5** markierten Stellen in die Anschlusslöcher.
+Stecke den Widerstand an die mit **R2**, **R3** und **R5** markierten Stellen in die Anschlusslöcher. Wie herum du ihn einsetzt, ist egal – ein Widerstand funktioniert in beide Richtungen.
 
 Plan auf die Platine aufdrücken…
 
@@ -122,7 +122,7 @@ Du kannst die Anschlusspins nach innen biegen, damit der Schalter beim Löten ni
 
 3mm diffus-rote LED. Beachte die unterschiedlich langen Anschlussbeinchen: Richtig einsetzen ist wichtig!
 
-Stecke das *lange Ende* durch das *quadratische Loch* an der Stelle **PIN13**. Das *kurze Ende* sollte auf der Seite der Zeichnung auf der Platine sein, an der der Kreis abgeflacht ist.
+Stecke das *kurze Ende* durch das *quadratische Loch* an der Stelle **LED3/PIN13**. Das *kurze Ende* sollte auf der Seite der Zeichnung auf der Platine sein, an der der Kreis abgeflacht ist.
 
 ![Drücke die LED dann wie gewohnt plan auf die Platine, löte fest und kürze die Beinchen.](img_uulm/led.jpg)
 
@@ -134,11 +134,11 @@ Wie herum Du es einsetzt, ist egal.
 
 Dann wieder wie gewohnt plandrücken, löten und kürzen.
 
-## Header #10.
+## TTL-Programmieranschluss #10.
 
 ![Das ist der Anschluss für das USB-TTL-Kabel.](img_uulm/header.jpg)
 
-Setze es in die Platine ein, damit Du siehst, wie es hineingehört.
+Setze den abgewinkelten TTL-Programmieranschluss (mit den sechs Pins) in die Platine ein, damit Du siehst, wie er hineingehört.
 
 Die Anschlussbeinchen lassen sich nicht verbiegen. Löte daher eines der Beinchen von oben her an, um es fürs Verlöten zu fixieren.
 
@@ -160,7 +160,7 @@ Und das ist der letzte der Widerstände. Er ist Gelb-Lila-Gelb markiert und komm
 
 ![Die Transistoren müssen genauso eingesetzt werden, wie es der jeweilige Umriss auf der Platine anzeigt. Dazu musst du die äußeren Beinchen ein wenig auseinander- und das mittlere Beinchen in Richtung des „Bauchs“ biegen.](img_uulm/transistoren.jpg)
 
-Sie sorgen dafür, dass aus dem schwachen Signal aus dem Microcontroller richtig viel Power wird – damit der Ausknipser auch auf weitere Entfernungen funktioniert!
+Die Transistoren sorgen dafür, dass aus dem schwachen Signal aus dem Microcontroller richtig viel Power wird – damit der Ausknipser auch auf weitere Entfernungen funktioniert!
 Schau Dir das Gehäuse gut an: Es ist auf einer Seite bauchig, und auf der anderen Seite abgeflacht.
 Auf der Platine findest du eine ähnliche Markierung, mit der Bezeichnung **PN2222A**.
 
