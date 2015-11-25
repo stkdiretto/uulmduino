@@ -25,6 +25,9 @@ Zusätzlich pro 6 Platinen:
 Zusätzlich pro 25 Platinen:
  * MPE 087-1-050 (0,87 EUR)
 
-Gesamt 7,17 EUR plus 1/6 0,32 EUR plus 1/25 0,87 EUR ;)
+**Batterien nicht vergessen! (3 AAA)** z.B. GP AL40 AAA, 40 Stück für 10,60 EUR. Akkus funktionieren leider nicht.
 
-**Batterien nicht vergessen! (3 AAA)**
+# Gesamt
+
+7,17 EUR plus 1/6 0,32 EUR plus 1/25 0,87 EUR plus 3/40 10,60 EUR ;) – Platinenkosten etwa 1,25 EUR  
+Macht gesamt rund **8,06 EUR** bzw. **9,31 EUR** inkl. Platine.
