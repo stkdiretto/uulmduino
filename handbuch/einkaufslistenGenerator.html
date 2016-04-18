@@ -1,0 +1,267 @@
+<!doctype html>
+
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>uulmduinoCalc</title>
+    <meta name="description" content="">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>uulmduino Einkaufsliste</h1>
+        <div class="row">
+            <div class="form-group col-md-1">
+                <label for="baseAmount">Wie viele uulmduinos möchtest du bauen?</label>
+                <input class="form-control input-lg" id="baseAmount" type="number" value="1">
+            </div>
+        </div>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Bestand</th>
+                    <th>Anzahl / uulmduino</th>
+                    <th>Reichelt-Artikelnummer</th>
+                    <th>Anzahl zu kaufen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atmega 328 PU</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>3,15</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>LED 3mm rot</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>LED 3MM ST RT</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Quarz 16 MHz</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>16,0000-HC49U-S</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Header, 6 Pins</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>MPE 094-1-006</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Batteriekasten 3 AAA</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>HALTER 3XAAAK</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Widerstand 10kΩ</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>METALL 10,0K</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Widerstand 22Ω</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>1/4W 22</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Widerstand 470kΩ</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>1/4W 470K</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Reset-Taster</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">1</td>
+                    <td>TASTER 9302</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Transistor PN 2222 A</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">2</td>
+                    <td>PN 2222A</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>IR-LED LD 271</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">2</td>
+                    <td>LD 271</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Keramikkondensator 18P RM 2,5mm</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">2</td>
+                    <td>KERKO 18P</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Keramikkondensator 100N RM 2,5mm</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">3</td>
+                    <td>X7R-2,5 100N</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Header, 8 Pins</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">3</td>
+                    <td>MPE 094-1-008</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Widerstand 1kΩ</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">3</td>
+                    <td>1/4W 1,0K</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Jumper, RM 2,5mm</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">2</td>
+                    <td>JUMPER 2,54 RT</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>40pol. Stiftleiste, gewinkelt, RM 2,54</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">0.1667</td>
+                    <td>SL 1X40W 2,54</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Stiftleisten 2,54 mm, 1X50, gerade</td>
+                    <td>
+                        <input class="inStock form-control input-sm" type="number" value="0">
+                    </td>
+                    <td class="ratio">0.04</td>
+                    <td>MPE 087-1-050</td>
+                    <td class="amount"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        calcOrder();
+
+        var allInputs = document.getElementsByTagName("input");
+
+        for (var c = 0; c < allInputs.length; c++) {
+            allInputs[c].addEventListener("change", function (event) {
+                calcOrder();
+            });
+        }
+
+        function calcOrder() {
+            // get the number of atmega units
+            var totalAmountOfUulmduino = document.getElementById("baseAmount").value;
+
+            // get all items represented as table row
+            var items = document.getElementsByTagName("tr");
+
+            // init vars
+            var inStock = 0;
+            var ratio = 0;
+            var amount = 0;
+
+            // iterate (start with i = 1 to ignore the table head)
+            for (var i = 1; i < items.length; i++) {
+                inStock = getInStockOf(items[i]);
+                ratio = getRatioOf(items[i]);
+                amount = calcAmount(totalAmountOfUulmduino, inStock, ratio);
+                setAmount(items[i], amount);
+            }
+        }
+        // returns the in stock value of one table row
+        function getInStockOf(row) {
+            var objectsWithClass = row.getElementsByClassName("inStock");
+            return objectsWithClass[0].value;
+        }
+
+        // returns the ratio value of one table row
+        function getRatioOf(row) {
+            var objectsWithClass = row.getElementsByClassName("ratio");
+            return objectsWithClass[0].innerText;
+        }
+
+        // calcs the amount of item needed
+        function calcAmount(totalAmountUulmduino, inStockOfCurrentItem, ratioOfCurrentItem) {
+            // ceil to handle the special items SL 1X40W and MPE 087-1-050  
+            var amount = totalAmountUulmduino * ratioOfCurrentItem - inStockOfCurrentItem;
+            amount = Math.ceil(amount);
+            if (amount < 0) {
+                return 0;
+            }
+            return amount;
+        }
+
+        // sets calculated amount to table row
+        function setAmount(row, amount) {
+            var objectsWithClass = row.getElementsByClassName("amount");
+            objectsWithClass[0].innerText = amount;
+        }
+    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
