@@ -25,7 +25,7 @@ Wer das Projekt nachmachen möchte, findet im handbuch-Ordner auch eine skizzenh
  * 2015-04-22 KiCad-Quellen hinzugefuegt
  * 2015-08-26 Revision 2 mit umfangreicherererer KiCad-Quellenlage und einigen gefixten Fehlern. Noch nicht praxiserprobt!
  * 2015-11-16 Fehler in rev2 vermerkt und [BOM](bom.md) hinzugefügt, Fehler im Handbuch korrigiert
- * 2016-04-12 Erster Aufschlag einer [Anleitung für KursleiterInnen](handbuch/fuer kursleiter_innen.md)
+ * 2016-04-12 Erster Aufschlag einer [Anleitung für KursleiterInnen](handbuch/fuer%20kursleiter_innen.md)
 
 ## Bekannte Fehler (Revision 2)
  * Bei allen Transistoren sind B und E vertauscht :(
